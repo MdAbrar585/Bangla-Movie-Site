@@ -184,3 +184,34 @@ footer .apps a {
   list-style: none;
   display: flex;
 }
+
+/* ----------------- */
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+  .tutor-search {
+    margin: 0;
+  }
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+@media all and (max-width: 667px) {
+}
+@media all and (max-width: 440px) {
+}
+
+@media all and (max-width: 410px) {
+  .list-inline {
+    display: block;
+    padding-left: 0;
+  }
+  .list-inline ul li {
+    margin-bottom: 5px;
+  }
+}

@@ -5,11 +5,25 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: black;
 }
+
+.site-logo img {
+  width: 100%;
+}
+a:hover {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+}
+.bg-light {
+  background-color: #e6eae9 !important;
+}
 header {
   border-top: 3px solid #006db1;
   padding: 5px 0 2px;
   width: 100%;
   box-shadow: 0 0 2px -1px;
+  background-color: #e6eae9;
 }
 .topbar-social ul {
   list-style: none;
@@ -63,4 +77,110 @@ header {
   color: #565555;
   font-size: 15px;
   margin-top: 20px;
+}
+
+/* --------------- */
+.tab-pane {
+  overflow: scroll;
+  height: 500px;
+}
+.tab-pane ul {
+  list-style: none;
+  font-size: 15px;
+}
+.tab-pane ul li {
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+  margin-bottom: 5px;
+}
+.tab-pane a {
+  color: #000;
+}
+
+/* ---------------------- */
+
+footer {
+  background: #2f2f2f;
+  padding: 15px 0;
+}
+footer hr {
+  border-top: 1px solid #000;
+  margin: 0 0 10px 0;
+}
+footer small {
+  padding: 0;
+  color: #fff;
+  line-height: 18px;
+  display: block;
+  font-size: 12px;
+  margin: 0 auto;
+}
+footer a {
+  color: #fff;
+  padding: 5px 0;
+}
+footer small a:hover {
+  color: #e91802;
+}
+footer li > a {
+  color: #fff;
+  padding: 5px 0;
+  display: block;
+}
+footer h4 span {
+  color: #76eec6;
+  font-size: 18px;
+}
+footer h4 a {
+  color: #76eec6;
+}
+footer h4 a:hover {
+  color: #76eec6;
+}
+footer img.ImgLogo {
+  height: 60px;
+}
+.footer-top-menu ul li {
+  padding: 0;
+}
+.footer-top-menu a {
+  color: #fff;
+  border: 1px solid #699;
+  padding: 5px 10px;
+  display: inline-block;
+  margin: 0;
+  margin-bottom: 4px;
+}
+.footer-top-menu a:hover {
+  background: #699;
+  color: #fff;
+}
+.footer-social a {
+  height: 30px;
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+  line-height: 24px;
+  color: #fff;
+  transition: all 0.3s;
+}
+.footer-social a.AFacebook {
+  background: #3c5899;
+}
+.footer-social a.ATwitter {
+  background: #28a9e0;
+}
+.footer-social a.AYoutube {
+  background: #c3181e;
+}
+.footer-social a.ARSS {
+  background: #f60;
+}
+footer .apps a {
+  display: inline-block;
+}
+.list-inline {
+  padding-left: 18%;
+  list-style: none;
+  display: flex;
 }

@@ -5,9 +5,16 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: black;
 }
-
+#hide-2 {
+  display: none;
+}
 .site-logo img {
   width: 100%;
+}
+a {
+  color: #000;
+
+  text-decoration: none;
 }
 a:hover {
   text-decoration: none;
@@ -204,6 +211,13 @@ footer .apps a {
 @media all and (max-width: 667px) {
 }
 @media all and (max-width: 440px) {
+  .list-inline {
+    display: block;
+    padding-left: 0;
+  }
+  .list-inline ul li {
+    margin-bottom: 5px;
+  }
 }
 
 @media all and (max-width: 410px) {
@@ -213,5 +227,11 @@ footer .apps a {
   }
   .list-inline ul li {
     margin-bottom: 5px;
+  }
+  #hide-1 {
+    display: none;
+  }
+  #hide-2 {
+    display: block;
   }
 }

@@ -234,4 +234,7 @@ footer .apps a {
   #hide-2 {
     display: block;
   }
+  #footer-hide-1 {
+    display: none;
+  }
 }

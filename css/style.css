@@ -104,6 +104,11 @@ header {
   color: #000;
 }
 
+.ctg-daily ul li {
+  border-bottom: 1px solid black;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
 /* ---------------------- */
 
 footer {
